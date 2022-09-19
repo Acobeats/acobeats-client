@@ -6,7 +6,7 @@ import '../Styles/Contact.css';
 import '../Styles/Landing.css';
 import axios from "axios";
 
-const baseURL = "http://localhost:3001/emailinfo";
+const baseURL = "https://acobeats-server.herokuapp.com/emailinfo";
 
 function Contact(){
 
