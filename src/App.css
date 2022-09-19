@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap");
+@font-face {
+  font-family: "hanson-bold";
+  src: url("Fonts/Hanson-Bold.otf") format("opentype"),
+    url("Fonts/Hanson-Bold.otf") format("woff"),
+    url("Fonts/Hanson-Bold.otf") format("svg"),
+    url("Fonts/Hanson-Bold.otf") format("truetype");
+}
+
+.App {
+  text-align: center;
+}
+
+.nav-link {
+  font-family: "hanson-bold";
+  font-size: 25px;
+  color: #cfc9a1;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.home-div {
+  /* background-color: #282c34; */
+  background: rgb(40,44,52);
+  background: linear-gradient(338deg, rgba(40,44,52,1) 46%, rgba(2,95,126,1) 100%);
+  min-height: 97vh;
+}
+
+.home-body {
+  margin-top: 50px;
+  padding-bottom: 17px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.My-navbar {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.offcanvas-backdrop.show {
+  opacity: 55%;
+}
+
+.offcanvas {
+  top: 40%;
+  right: 0;
+  width: auto;
+  background-color: transparent;
+  margin-right: 17px;
+}
+
+.title {
+  font-family: "hanson-bold";
+  font-size: 40px;
+}
+
+.brandLink {
+  text-decoration: none;
+  color: #cfc9a1;
+}
+
+.brandLink:hover {
+  color: white;
+}
+
+.offcanvas-end {
+  border: 0;
+}
+
+.App-logo {
+  max-height: 60vmin;
+  margin-top: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  background: rgb(40,44,52);
+  background: linear-gradient(155deg, rgba(40,44,52,1) 46%, rgba(2,95,126,1) 100%);
+  min-height: 97vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+footer {
+  min-height: 3vh;
+  background-color: #282c34;
+  color: #cfc9a1;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
