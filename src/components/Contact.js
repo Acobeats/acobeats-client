@@ -20,7 +20,7 @@ function Contact(){
             asunto
           })
           .then((response) => {
-            // setPost(response.data);
+            alert('Mail Sent')// setPost(response.data);
           });
       }
 
